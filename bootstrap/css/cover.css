@@ -55,6 +55,7 @@ body {
 
 /* Padding for spacing */
 .inner {
+  margin-top: 30px;
   padding: 30px;
 }
 
