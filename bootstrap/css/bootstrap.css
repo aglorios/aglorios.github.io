@@ -1100,6 +1100,16 @@ a {
   color: #337ab7;
   text-decoration: none;
 }
+
+a:link {
+  color:#add8e6
+}
+
+a:visited {
+  color:#e6bbad
+}
+
+
 a:hover,
 a:focus {
   color: #23527c;
@@ -1289,6 +1299,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-size: .9em;
 }
 .lead {
   margin-bottom: 20px;

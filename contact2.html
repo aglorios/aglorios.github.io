@@ -10,11 +10,15 @@
     <meta name="keywords" content="Iran,art,contemporary,artists">
     <link rel="icon" href="../../favicon.ico">
 
-
     <title>Reframe Iran</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Javascript Libraries -->
+    <script src="bootstrap/js/jquery.stretchandloop.js"></script>
+    <script src="bootstrap/js/jquery-loader.js"></script>
+    <script src="bootstrap/jquery/jquery.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="bootstrap/css/cover.css" rel="stylesheet">
@@ -33,7 +37,7 @@
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
-        <img src="images/joaovr.gif" alt="João Inada VR" width="auto" height="992px">
+            <img src="images/backgroundvr.gif" alt="VR Background" width="auto" height="992px">
 
         <div class="cover-container">
 
@@ -42,29 +46,26 @@
               <h3 class="masthead-brand">Contact</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li class="active"><a href="contact.html">Contact</a></li>
+                  <li><a href="contact2.html">Contact</a></li>
                 </ul>
               </nav>
             </div>
           </div>
 
           <div class="inner cover">
-            <p>For more information on <a href="http://brown.columbia.edu/about">the Brown Institute or Brown Magic Grants</a>, please contact <a href="mailto:mkrisch@columbia.edu">Michael Krisch </a>at Columbia University</h9>
-            <p class="lead">
+
+
+          <h1 class="cover-heading">We look forward to hearing from you.</h1>
+          <p class="lead">For more information on <a href="http://brown.columbia.edu/about">the Brown Institute or Brown Magic Grants</a>, please contact <a href="mailto:mkrisch@columbia.edu">Michael Krisch </a>at Columbia University.</p>
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
-            <div class="col-xs-12">
-            <p class="lead"></br></p>
-            <h9 class="cover-heading">To contact anyone on our project, please see their individual sections on the about page.</br> If you don't know who to contact, please write to <a href="mailto:aglorios@gmail.com">Alex Glorioso.</h9>
-            <p class="lead">
-            </p>
-          </div>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-      <!--        <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            <!--  <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
             </div>
           </div>
 
@@ -73,6 +74,22 @@
       </div>
 
     </div>
+
+
+
+    <script>
+          $.stretchandloop([
+            "../images/_MG_5798.jpg"
+          , "img/2.jpg"
+          , "img/3.jpg"
+          , "img/4.jpg"
+          , "img/5.jpg"
+          ], {
+              fade: 750,
+              duration: 8000
+          });
+      </script>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
